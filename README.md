@@ -1,6 +1,6 @@
 # modernize
 
-A small source rewriter for [BetterGo](https://github.com/BetterGo3/BetterGo) that uses `T!` result types and `!` error propagation.
+A small source rewriter for [Better](https://github.com/Better14) that uses `T!` result types and `!` error propagation.
 
 It walks a directory of Go files and updates common error-handling patterns to the shorter fork syntax. Files are rewritten in place.
 
@@ -30,7 +30,7 @@ It skips `vendor/`, `.git/`, nested function literals, and cases where transform
 
 ## Requirements
 
-Build and run with **this fork’s Go** as `GOROOT` — the output uses `T!` and `expr!`, which standard Go does not accept.
+Build and run with **Better** as `GOROOT` — the output uses `T!` and `expr!`, which standard Go does not accept.
 
 ## Usage
 
